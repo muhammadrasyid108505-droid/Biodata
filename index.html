@@ -209,3 +209,10 @@
     </div>
 </body>
                     </html>
+<body>
+<audio id="bgm" src="lagu.mp3" loop></audio> </body>
+<script>
+document.addEventListener("click", function() {
+    const bgm = document.getElementById("bgm");
+    bgm.play();
+}, { once: true }); 
